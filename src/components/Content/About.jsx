@@ -5,13 +5,11 @@ const About = ({myRef}) => {
 
   const clickedPage = (page) => {
     setActivePage(page);
+
   }
 
   return (
-    <div className='about-container' >
-      <div className='about'>
-        <h1>About Me</h1>
-      </div>
+    <div className='about-section' ref={myRef}>
       <div className="skills">
         <h1>Skills</h1>
         <div className="buttons">
@@ -101,32 +99,15 @@ const About = ({myRef}) => {
             <h2>Github</h2>
           </div>
           <div className="item">
-            <img className='icon' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
-            <h2>Javascript</h2>
-          </div>
-          <div className="item">
-            <img className='icon' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" />
-            <h2>React</h2>
-          </div>
-          <div className="item">
-            <img className='icon' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" />
-            <h2>React</h2>
-          </div>
-          <div className="item">
-            <img className='icon' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" />
-            <h2>React</h2>
-          </div>
-          <div className="item">
-            <img className='icon' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" />
-            <h2>React</h2>
-          </div>
-          <div className="item">
-            <img className='icon' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" />
-            <h2>React</h2>
+            <img className='icon' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/npm/npm-original-wordmark.svg" />
+            <h2>Npm</h2>
           </div>
         </div>
         }
       </div>
+      {/* <div className='about'>
+        <h1>About Me</h1>
+      </div> */}
     </div>
   )
 }
