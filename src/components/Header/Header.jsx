@@ -1,6 +1,5 @@
 import React from 'react'
-import { useState } from 'react'
-import githubIcon from "../../assets/githubIcon.png"
+import githubIcon from "../../assets/githubicon.png"
 
 const Header = () => {
   return (
