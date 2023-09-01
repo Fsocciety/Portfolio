@@ -1,4 +1,5 @@
 import React from 'react'
+import avatar from '../../assets/avatar.png'
 
 const Home = () => {
   return (
@@ -11,7 +12,7 @@ const Home = () => {
           <p className='welcome'>Welcome to my personal website</p>
         </div>
         <div className="image-wrapper">
-          <img className='avatar' src='src\assets\avatar.jpg' alt="avatar"/>
+          <img className='avatar' src={avatar} alt="avatar"/>
         </div>
       </div>
     </div>
