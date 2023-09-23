@@ -10,7 +10,7 @@ const Header = () => {
         <li >About</li>
         <li >Portfolio</li>
       </ul>
-      <a href="https://github.com/Fsocciety"><img className='github' src={githubIcon} alt="github-icon" /></a>
+      <a href="https://github.com/uros-simeunovic"><img className='github' src={githubIcon} alt="github-icon" /></a>
     </div>
   )
 }
