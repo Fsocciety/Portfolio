@@ -6,11 +6,11 @@ const Header = () => {
     <div className="header-container header">
       <a className='logo' href='/'><h1>uroSS();</h1></a>
       <ul>
-        <li ><a href="/">Home</a></li>
-        <li >About</li>
-        <li >Portfolio</li>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
       </ul>
-      <a href="https://github.com/uros-simeunovic"><img className='github' src={githubIcon} alt="github-icon" /></a>
+      <a href="https://github.com/uros-simeunovic" target='_blank'><img className='github' src={githubIcon} alt="github-icon" /></a>
     </div>
   )
 }

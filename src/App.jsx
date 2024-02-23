@@ -5,9 +5,6 @@ import Content from './components/Content/Content.jsx';
 import "./style.scss"
 
 function App() {
-
-  
-
   return (
     <>
       <Header/>

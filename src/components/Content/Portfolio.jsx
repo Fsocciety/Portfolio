@@ -5,7 +5,7 @@ import portfolioProject from './../../assets/portfolio-project.png'
 
 const Portfolio = ({myRef}) => {
   return (
-    <div ref={myRef} className="portfolio-section">
+    <div ref={myRef} className="portfolio-section" id='projects'>
       <h1>Projects</h1>
       
       <div className="portfolio">

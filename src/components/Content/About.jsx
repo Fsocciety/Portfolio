@@ -9,7 +9,7 @@ const About = ({myRef}) => {
   }
 
   return (
-    <div className='about-section' ref={myRef}>
+    <div className='about-section' ref={myRef} id='skills'>
       <div className="skills">
         <h1>Skills</h1>
         <div className="buttons">
@@ -33,23 +33,23 @@ const About = ({myRef}) => {
           </div>
           <div className="item">
             <img className='icon' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" />
-            <h2>ReactJS</h2>
+            <h2>React</h2>
           </div>
           <div className="item">
-            <img className='icon' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg" />
-            <h2>Tailwind</h2>
+            <img className='icon' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" />
+            <h2>React Native</h2>
+          </div>
+          <div className="item">
+            <img className='icon' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg" />
+            <h2>Sass</h2>
           </div>
           <div className="item">
             <img className='icon' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" />
             <h2>Bootstrap</h2>
           </div>
           <div className="item">
-            <img className='icon' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" />
-            <h2>React</h2>
-          </div>
-          <div className="item">
-            <img className='icon' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" />
-            <h2>React Native</h2>
+            <img className='icon' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg" />
+            <h2>Tailwind</h2>
           </div>
         </div>}
         {activePage === "Backend" && 
@@ -67,12 +67,12 @@ const About = ({myRef}) => {
             <h2>Javascript</h2>
           </div>
           <div className="item">
-            <img className='icon' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" />
-            <h2>React</h2>
+            <img className='icon' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" />
+            <h2>PostgreSQL</h2>
           </div>
           <div className="item">
-            <img className='icon' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" />
-            <h2>React</h2>
+            <img className='icon' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" />
+            <h2>MySQL</h2>
           </div>
           <div className="item">
             <img className='icon' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" />
@@ -101,6 +101,10 @@ const About = ({myRef}) => {
           <div className="item">
             <img className='icon' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/npm/npm-original-wordmark.svg" />
             <h2>Npm</h2>
+          </div>
+          <div className='item'>
+            <img className='icon' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" />
+            <h2>Docker</h2>
           </div>
         </div>
         }
